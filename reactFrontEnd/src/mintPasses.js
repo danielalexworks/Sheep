@@ -1,0 +1,18 @@
+const mintPasses = {
+  '0x9dc905a1c270A01651046e6F68b30784B1a70335': {
+    mintPass: {
+      message: '0x9dc905a1c270A01651046e6F68b30784B1a70335',
+      r: '0x1d1d8852d2836a7dcd704fe4da0d4d5ed55f5b25b7e1e96d9560c0c231269606',
+      s: '0x3b15a3a2812dde47a780465073fa87cc630173f1f465c089f6cc2d725c2c43a5',
+      v: 28
+    }
+  },
+  '0x14dC79964da2C08b23698B3D3cc7Ca32193d9955': {
+    mintPass: {
+      message: '0x14dC79964da2C08b23698B3D3cc7Ca32193d9955',
+      r: '0x35983d495ef39db953e82dba03c9f4c388dfc118b81bd4e60ecce1ef96473865',
+      s: '0x2f7a8c4ea75a3e008d8c83ecf63c029c65a68ac0178d23418919d0be48817e72',
+      v: 27
+    }
+  }
+}
