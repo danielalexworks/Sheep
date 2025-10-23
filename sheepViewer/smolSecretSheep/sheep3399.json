@@ -1,0 +1,12 @@
+{
+    "description": "First release of  Sheep NFT ecosystem",
+    "external_url": "ipfs://QmTy8w65yBXgyfG2ZBg5TrfB2hPjrDQH3RCQFJGkARStJb",
+    "image": "sheep3399.png",
+    "name": "sheep3399",
+    "attributes": [
+        {
+            "trait_type": "Special",
+            "value": "Ralph"
+        }
+    ]
+}

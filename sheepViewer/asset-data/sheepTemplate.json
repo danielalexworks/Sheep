@@ -1,0 +1,910 @@
+{
+
+    "Background": [
+	    {
+	        "name": "Orange",
+	        "weight": 50,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 1
+	    },
+	    {
+	        "name": "Light_Pink",
+	        "weight": 40,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "required": 1
+	    }
+	    ,
+	    {
+	        "name": "Cream",
+	        "weight": 30,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "required": 1
+	    }
+	    ,
+	    {
+	        "name": "Cyan",
+	        "weight": 20,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "required": 1
+	    },
+	    {
+	        "name": "Blue",
+	        "weight": 20,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "required": 1
+	    },
+	    {
+	        "name": "Pale_Yellow",
+	        "weight": 10,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "required": 1
+	    },
+	    {
+	        "name": "Yellow",
+	        "weight": 20,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "required": 1
+	    },
+	    {
+	        "name": "Pink",
+	        "weight": 25,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "required": 1
+	    },
+	    {
+	        "name": "Red",
+	        "weight": 25,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "required": 1
+	    },
+	    {
+	        "name": "Tfuel_Orange",
+	        "weight": 10,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "required": 1
+	    },
+	    {
+	        "name": "Theta_1",
+	        "weight": 10,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "required": 1
+	    },
+	    {
+	        "name": "Theta_2",
+	        "weight": 10,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "required": 1
+	    },
+	    {
+	        "name": "Theta_3",
+	        "weight": 10,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "required": 1
+	    },
+	    {
+	        "name": "Theta_4",
+	        "weight": 10,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "required": 1
+	    },
+	    
+	    {
+	        "name": "Gradient",
+	        "weight": 1,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "required": 1
+	    },
+	    {
+	        "name": "Little_Presque",
+	        "weight": 5,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "required": 1
+	    },
+	    {
+	        "name": "Dirty_Sheep",
+	        "weight": 5,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "required": 1
+	    },
+	    {
+	        "name": "Knit",
+	        "weight": 5,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "required": 1
+	    },
+	    {
+	        "name": "Light_Weave",
+	        "weight": 5,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "required": 1
+	    },
+	    {
+	        "name": "Sacred",
+	        "weight": 5,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "required": 1
+	    },
+	    {
+	        "name": "Wolf",
+	        "weight": 5,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "required": 1
+	    }
+	],
+
+
+    "Legs": [
+	    {
+	        "name": "Nub",
+	        "weight": 30,
+	        "rarity": 20,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 1
+	    },
+	    {
+	        "name": "Pointy",
+	        "weight": 15,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 1
+	    },
+	    {
+	        "name": "Long",
+	        "weight": 5,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 1
+	    },
+		{
+	        "name": "Chub",
+	        "weight": 5,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 0
+	    }
+	],
+    "Legs": [
+	    {
+	        "name": "Nub",
+	        "weight": 30,
+	        "rarity": 20,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 1
+	    },
+	    {
+	        "name": "Pointy",
+	        "weight": 15,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "exclude":{
+	        	"Shoes" : ["Puma"]
+	        },
+			"required" : 1
+	    },
+	    {
+	        "name": "Long",
+	        "weight": 5,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 1
+	    },
+	    {
+	        "name": "Chub",
+	        "weight": 5,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "exclude":{
+	        	"Shoes" : ["AllStars","Socks"]
+	        },
+			"required" : 1
+	    }],
+    "Leg_Cuffs": [
+	    {
+	        "name": "Nub",
+	        "weight": 20,
+	        "rarity": 0,
+	        "parent": "Legs",
+	        "inherit": "copy",
+			"required" : 0
+	    },
+	    {
+	        "name": "Pointy",
+	        "weight": 15,
+	        "rarity": 0,
+	        "parent": "Legs",
+	        "inherit": "copy",
+			"required" : 0
+	    },
+	    {
+	        "name": "Long",
+	        "weight": 5,
+	        "rarity": 0,
+	        "parent": "Legs",
+	        "inherit": "copy",
+			"required" : 0
+	    },
+		{
+	        "name": "Chub",
+	        "weight": 5,
+	        "rarity": 0,
+	        "parent": "Legs",
+	        "inherit": "copy",
+			"required" : 0
+	    }
+	], 
+    "Body": [
+	    {
+	        "name": "Fluffy",
+	        "weight": 420,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 1
+	    },
+	    {
+	        "name": "Nugget",
+	        "weight": 1,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 1
+	    }
+	   ],
+    "Fleece_Overlay": [
+	    {
+	        "name": "Bright",
+	        "weight": 100,
+	        "rarity": 0,
+	        "parent": {
+	        		"Body" : ["Fluffy"]
+	        	},
+	        "inherit": "multi",
+	        "exclude" : {
+	        		"Neck": ["Big_Beard"]
+	        },
+			"required" : 1,
+			"blend" : "SoftLight"
+	    },{
+	        "name": "Flowers",
+	        "weight": 30,
+	        "rarity": 0,
+	        "parent": {
+	        		"Body" : ["Fluffy"]
+	        	},
+	        "inherit": "multi",
+	        "exclude" : {
+	        		"Neck": ["Big_Beard"]
+	        },
+			"required" : 1,
+			"blend" : "HardLight"
+	    },
+		{
+	        "name": "Gradient",
+	        "weight": 20,
+	        "rarity": 0,
+	        "parent": {
+	        		"Body" : ["Fluffy"]
+	        	},
+	        "inherit": "multi",
+	        "exclude" : {
+	        		"Neck": ["Big_Beard"]
+	        },
+			"required" : 1,
+			"blend" : "Normal"
+
+	    },
+		{
+	        "name": "Pale",
+	        "weight": 50,
+	        "rarity": 0,
+	        "parent": {
+	        		"Body" : ["Fluffy"]
+	        	},
+	        "inherit": "multi",
+	        "exclude" : {
+	        		"Neck": ["Big_Beard"]
+	        },
+			"required" : 1,
+			"blend" : "SoftLight",
+			"opacity" : 0.35
+
+	    },
+		{
+	        "name": "Rainbow",
+	        "weight": 5,
+	        "rarity": 0,
+	        "parent": {
+	        		"Body" : ["Fluffy"]
+	        	},
+	        "inherit": "multi",
+	        "exclude" : {
+	        		"Neck": ["Big_Beard"]
+	        },
+			"required" : 1,
+			"blend" : "Normal",
+			"opacity" : 0.59
+	    },
+		{
+	        "name": "Carina",
+	        "weight": 5,
+	        "rarity": 0,
+	        "parent": {
+	        		"Body" : ["Fluffy"]
+	        	},
+	        "inherit": "multi",
+	        "exclude" : {
+	        		"Neck": ["Big_Beard"]
+	        },
+			"required" : 1,
+			"blend" : "Normal",
+			"opacity" : 0.7
+	    },
+		{
+	        "name": "Gray",
+	        "weight": 10,
+	        "rarity": 0,
+	        "parent": {
+	        		"Body" : ["Fluffy"]
+	        	},
+	        "inherit": "multi",
+	        "exclude" : {
+	        		"Neck": ["Big_Beard"]
+	        },
+			"required" : 1,
+			"blend" : "Normal"
+			
+	    },
+		{
+	        "name": "Coins",
+	        "weight": 10,
+	        "rarity": 0,
+	        "parent": {
+	        		"Body" : ["Fluffy"]
+	        	},
+	        "inherit": "multi",
+	        "exclude" : {
+	        		"Neck": ["Big_Beard"]
+	        },
+			"required" : 1,
+			"blend" : "Normal"
+			
+	    }
+	],
+	"Skin_Overlay": [
+	    {
+	        "name": "Red",
+	        "weight": 100,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "exclude" : {
+	        		"Mouth": ["Goof"]
+	        },
+			"required" : 1,
+			"blend" : "Multiply"
+	    },
+	    {
+	        "name": "Blue",
+	        "weight": 30,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "exclude" : {
+	        		"Mouth": ["Goof"]
+	        },
+			"required" : 1,
+			"blend" : "Multiply"
+	    },
+		{
+	        "name": "Green",
+	        "weight": 20,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "exclude" : {
+	        		"Mouth": ["Goof"]
+	        },
+			"required" : 1,
+			"blend" : "Multiply"
+	    },
+		{
+	        "name": "White",
+	        "weight": 50,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "exclude" : {
+	        		"Mouth": ["Goof"]
+	        },
+			"required" : 1,
+			"blend" : "Normal"
+	    },
+		{
+	        "name": "Black",
+	        "weight": 5,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "exclude" : {
+	        		"Mouth": ["Goof"]
+	        },
+			"required" : 1,
+			"blend" : "Normal"
+	    },
+		{
+	        "name": "ESO-455-10",
+	        "weight": 2,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "exclude" : {
+	        		"Mouth": ["Goof"]
+	        },
+			"required" : 1,
+			"blend" : "VividLight"
+	    }
+	],
+
+    "Accessories": [
+	    {
+	        "name": "Cheek",
+	        "weight": 1,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "exclude":{
+	        	"Eyes" : ["Asleep","Baby_Blues","Bored","Closed","Closed_Tight","Cracked","Derp","Flower_Power","Glass_Eyes","Happy","Humph","Quite","Serene","Sigh","Weary","Worn_Out","WTF"],
+	        	"Accessories" : ["Diamond","Spot","Tattoo"],
+	        	"Mouth" : ["Goof"]
+	        },
+			"required" : 0,
+			"blend" : "Multiply"
+	    },
+	    {
+	        "name": "Diamond",
+	        "weight": 1,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "exclude":{
+	        	"Eyes" : ["Bored","Closed", "WTF"],
+	        	"Accessories" : ["Cheek","Spot","Tattoo"]
+	        },
+			"required" : 0,
+			"blend" : "Multiply"
+	    },
+	    
+	    {
+	        "name": "Gold_Bell",
+	        "weight": 5,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "exclude":{
+	        	"Accessories" : ["Rusty_Bell","Silver_Bell"],
+	        	"Neck" : ["Baby_Bib", "Big_Beard", "Bandana"]
+	        },
+			"required" : 0
+	    },
+	    {
+	        "name": "Rusty_Bell",
+	        "weight": 5,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "exclude":{
+	        	"Accessories" : ["Gold_Bell","Silver_Bell"],
+	        	"Neck" : ["Baby_Bib", "Big_Beard", "Bandana"]
+	        },
+			"required" : 0
+	    },
+	    {
+	        "name": "Silver_Bell",
+	        "weight": 5,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "exclude":{
+	        	"Accessories" : ["Rusty_Bell","Gold_Bell"],
+	        	"Neck" : ["Baby_Bib", "Big_Beard", "Bandana"]
+	    
+	        },
+			"required" : 0
+	    },
+	    {
+	        "name": "Spot",
+	        "weight": 1,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "exclude":{
+	        	"Eyes" : ["Asleep","Baby_Blues","Bored","Closed","Closed_Tight","Cracked","Derp","Flower_Power","Glass_Eyes","Happy","Humph","Quite","Serene","Sigh","Weary","Worn_Out","WTF"],
+	        	"Accessories" : ["Cheek","Diamond","Tattoo"],
+	        	"Mouth" : ["Goof"]
+	        },
+			"required" : 0,
+			"blend" : "Multiply"
+	    },
+	    {
+	        "name": "Sun_Glasses",
+	        "weight": 5,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "exclude":{
+	        	"Eyes" : ["Asleep","Baby_Blues","Bored","Closed","Closed_Tight","Cracked","Derp","Flower_Power","Glass_Eyes","Happy","Humph","Quite","Serene","Sigh","Weary","Worn_Out","WTF"],
+	        	"Mouth" : ["Goof"]
+	    
+	        },
+			"required" : 0
+	    },
+	    {
+	        "name": "Tattoo",
+	        "weight": 1,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "exclude":{
+	        	"Eyes" : ["Asleep","Baby_Blues","Bored","Closed","Closed_Tight","Cracked","Derp","Flower_Power","Glass_Eyes","Happy","Humph","Quite","Serene","Sigh","Weary","Worn_Out","WTF"],
+	        	"Accessories" : ["Cheek","Diamond","Spot"],
+	        	"Mouth" : ["Goof"]
+	        },
+			"required" : 0,
+			"blend" : "Multiply"
+	    }
+	    
+	],
+
+    "Earrings": [
+	     {
+	        "name": "3_Rings",
+	        "weight": 5,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 0
+	    },
+	    {
+	        "name": "Ankh",
+	        "weight": 2,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 0
+	    },
+	    {
+	        "name": "Cactus_Earrings",
+	        "weight": 1,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 0
+	    },
+	   
+	    {
+	        "name": "Silver_Hoop",
+	        "weight": 8,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 0
+	    }
+	],
+	 "Neck": [
+	    {
+	        "name": "Bandana",
+	        "weight": 1,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	       
+			"required" : 0
+	    },
+	    {
+	        "name": "Baby_Bib",
+	        "weight": 1,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        "exclude" : {
+	        	"Mouth" : ["Blep","Goof", "Grass","Lip", "Lit","Joint","Pbbbt","Snaggle_Tooth","Sticking_Out_Tounge","Teeth"]
+	        },
+			"required" : 0
+	    },
+	    {
+	        "name": "Big_Beard",
+	        "weight": 1,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 0
+	    },
+	    
+	    {
+	        "name": "Braided_Beard",
+	        "weight": 1,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	        
+			"required" : 0
+	    }
+	],
+	"Mouth": [
+		{
+	        "name": "Blep",
+	        "weight": 2,
+	        "rarity": 0,
+	       "parent": "none",
+	        "inherit": "none",
+			"required" : 0
+	    },
+	    {
+	        "name": "Goof",
+	        "weight": 2,
+	        "rarity": 0,
+	       "parent": "none",
+	        "inherit": "none",
+			"required" : 0
+	    },
+	    {
+	        "name": "Grass",
+	        "weight": 2,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 0
+	    },
+	    {
+	        "name": "Lip",
+	        "weight": 2,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 0
+	    },
+	    
+	    {
+	        "name": "Lit",
+	        "weight": 2,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+	      	"required" : 0  
+	    },
+	    {
+	        "name": "Joint",
+	        "weight": 2,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 0
+	    },
+	    {
+	        "name": "Pbbbt",
+	        "weight": 2,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 0
+	    },
+	    {
+	        "name": "Snaggle_Tooth",
+	        "weight": 3,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 0
+	    },
+	    {
+	        "name": "Sticking_Out_Tounge",
+	        "weight": 2,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 0
+	    },
+	    {
+	        "name": "Teeth",
+	        "weight": 2,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 0
+	    }
+	    
+	],
+
+    "Eyes": [
+    	{
+	        "name": "Asleep",
+	        "weight": 18,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 1
+	    },
+	    {
+	        "name": "Baby_Blues",
+	        "weight": 2,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 1
+	    },
+	    {
+	        "name": "Bored",
+	        "weight": 2,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 1
+	    },
+	    {
+	        "name": "Closed",
+	        "weight": 2,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 1
+	    },
+	    {
+	        "name": "Closed_Tight",
+	        "weight": 2,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 1
+	    },
+	    {
+	        "name": "Cracked",
+	        "weight": 2,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 1
+	    },
+	    {
+	        "name": "Derp",
+	        "weight": 2,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 1
+	    },
+	    {
+	        "name": "Flower_Power",
+	        "weight": 2,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 1
+	    },
+	    {
+	        "name": "Glass_Eyes",
+	        "weight": 3,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 1
+	    },
+	    {
+	        "name": "Happy",
+	        "weight": 3,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 1
+	    },
+	    {
+	        "name": "Humph",
+	        "weight": 2,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 1
+	    },
+	    {
+	        "name": "Quite",
+	        "weight": 2,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 1
+	    },
+	    {
+	        "name": "Serene",
+	        "weight": 2,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 1
+	    },
+	    {
+	        "name": "Sigh",
+	        "weight": 2,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 1
+	    },
+	    {
+	        "name": "Weary",
+	        "weight": 16,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 1
+	    },
+	    
+	    {
+	        "name": "Worn_Out",
+	        "weight": 15,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 1
+	    },
+	    
+	    {
+	        "name": "WTF",
+	        "weight": 5,
+	        "rarity": 0,
+	        "parent": "none",
+	        "inherit": "none",
+			"required" : 1
+	    }
+	]
+
+    
+}

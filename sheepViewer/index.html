@@ -1,0 +1,334 @@
+<html>
+	<head>
+		     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+		     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;400" rel="stylesheet">    
+<meta name="viewport" content="width=device-width, user-scalable=no">
+		     <title> Sheep! : pasture </title>
+		     <style>
+		     	body,html,main{
+		     		width: 100%;
+		     		height: 100%;
+		     		position: relative;
+		     		margin: 0;
+		     		font-size: 0;
+		     		font-family: Roboto;
+		     	}
+		     	body{
+		     		padding-bottom: 500px;
+		     		background-color: #000;
+		     		width: 100%;
+		     		overflow-x: hidden;
+		     	}
+		     	main{
+		     		padding-top: 60px;
+		     		background-color: #000;
+		     		position: relative;
+		     		width: 100%;
+
+		     	}
+		     	main .asheep{
+		     		display: inline-block;
+		     		width: 300px;
+		     		height: 300px;
+		     		position: relative;
+		     		background-color: #111;
+		     	}
+		     	main .asheep img{
+		     		width: 100%;
+		     		display: absolute;
+		     		top: 0;
+		     		left: 0;
+		     		display: block;
+		     		transition: .2s;
+		     	}
+
+		     	main .asheep .info{
+		     		background-color: rgba(20,20,20,0.9);
+					opacity: 0;		     		
+					position: absolute;
+		     		top: 0;
+		     		/*left: 0;*/
+		     		width: 100%;
+		     		height: 100%;
+		     		color: #fff;
+		     		text-align: left;
+		     		transition: .1s;
+		     	}
+		     	main .asheep .iright{
+		     		right: 0;
+		     	}
+		     	main .asheep .ileft{
+		     		left: 0;
+		     	}
+
+                 .info{
+                     font-size:10px;
+                 }
+                 .hidden{
+                 }
+                 td{
+                     position: relative;
+                 }
+                 
+                 .powerscore{
+                     
+                     float:right;
+                     color:limegreen;
+                 }
+                 .info .attributeStats{
+                     background-color:#eee;
+                     color:#111;
+                     display:block;
+                     position: absolute;
+                     top:0;
+                     left:0;
+                     width:100%;
+                     height:100%;
+                     line-height:30px;
+                     padding: 0 10px;
+                     opacity:0;
+                     transition:0.1s;
+
+                 }
+                 .info tr:hover .attributeStats {
+                     opacity:1;
+                     transition:0.1s;
+                 }
+                 .info .grayed{
+                     color:#bbb !important;
+                 }
+                 .info .neg{
+                     color:#ecc !important;
+                     background-color:indianred!important;
+                 }
+                 main .asheep .info .item{
+                     height:100%;
+                     display:inline-block;
+                     height:100%;
+                     padding:0 2px;
+                     
+                 }
+		     	main .asheep .info>span{
+		     		font-size: 10px;
+		     		display: block;
+		     		
+		     		padding: .1vw;
+		     	}
+		     	main .asheep .info>span span{
+		     		display: inline-block;
+		     		margin-right: 2vw;
+
+		     	}
+		     	main .asheep .info .trait{
+		     		font-size: 10px;
+		     		letter-spacing: 2px;
+		     		font-weight: 600;
+
+		     	}
+		     	main .asheep .info .val{
+		     		letter-spacing: 2px;
+		     		font-weight: 400;
+		     	}
+		     	main .asheep .info .sheepname{
+		     		letter-spacing: 4px;
+		     		font-weight: 600;
+                    width:100%;
+		     	}
+
+		     	main .asheep:hover{
+		     		z-index: 11;
+		     	}
+/*---------------------------------------------*/
+
+
+
+		     	main div:hover>.info{
+		     		height: auto;
+		     		
+		     		min-height: 110%;
+		     		width: 110%;
+		     		
+		     		/*margin-top: -5%;*/
+		     		
+		     		padding: 5%;
+		     		
+		     		opacity: 100;
+		     		transition: .5s;
+		     		
+		     		z-index: 11;
+
+		     	}
+		     	main div:hover>.ileft{
+		     		/*margin-left: -5%;*/
+		     		transition: .5s;
+		     	}
+		     	main div:hover>.iright{
+		     		/*margin-right: -5%;*/
+		     		transition: .5s;
+		     	}
+		     	main div:hover img{
+
+		     		
+		     		width: 110%;
+		     		height: 110%;
+		     		/*
+		     		margin-top: -5%;
+		     		margin-left: -5%;
+		     		*/
+		     		z-index: 8;
+		     		transition: .5s;
+		     	}
+		     	/*
+		     	#info{
+		     		position: fixed;
+		     		top: 0;
+		     		left: 0;
+		     		background-color: #000;
+		     		color: #fff;
+		     		z-index: 99;
+		     	}
+		     	*/
+
+		     	tr,td{
+		     		padding:  .4vw;
+		     		border-bottom: solid #333 1px;
+		     	}
+		     	#top{
+		     		position: fixed;
+		     		top: 0;
+		     		left: 0;
+		     		width: 100%;
+		     		
+		     		background-color: #000;
+		     		z-index: 10;
+		     		padding: 20px 0;
+		     	}
+
+		     	#top label{
+		     		color: #ddd;
+		     		font-size: 10px;
+		     		position: relative;
+		     		margin-left: 50px;
+		     		display: inline-block;
+		     	}
+		     	#top input{
+		     		border: none;
+		     		background-color: #ddd;
+		     		text-align: right;
+		     		padding: 5px 10px;
+		     		position: relative;
+		     		font-weight: 600;
+		     		color: #000;
+		     		height: 20px;
+		     		width: 200px;
+		     	}
+		     	#jumplabel{
+		     		width: 100px;
+		     	}
+		     	#filteroptions{
+		     		color: #fff;
+		     		font-size: 10px;
+		     		margin-left: 10px;
+		     		border: solid 1px;
+		     		padding: 2px 5px;
+		     		cursor: pointer;
+		     	}
+		     	#filteroptions:hover{
+		     		background-color: #fff;
+		     		color: #000;
+
+		     	}
+		     	#filtermenu, #filtersubmenu{
+		     		position: fixed;
+		     		background-color: #333;
+		     		color: #eee;
+		     		font-size: 12px;
+		     		z-index: 99;
+		     		padding: 10px 20px;
+		     		display: none;
+		     	}
+		     	#filteroptions:hover #filtermenu{
+		     		display: block;
+
+		     	}
+		     	 #filteroptions:hover #filtersubmenu{
+		     	 	display: block;
+		     	 }
+		     	.filop, .filsubop{
+		     		padding: 2px 5px;
+		     		cursor: pointer;
+width:600px;		     	}
+		     	.filop:hover, .filsubop:hover{
+		     		color: #888;
+		     	}
+		     	.high{
+		     		color: gold;
+		     	}
+		     	#activefilters{
+		     		font-size: 10px;
+		     		margin-left: 10px;
+		     		color: white;
+
+		     	}
+		     	#activefilters{
+		     		color: #999;
+		     	}
+		     	.fil{
+		     		cursor: pointer;
+		     		color: #fff;
+		     	}
+		     	.fil:hover{
+		     		color: red;
+		     	}
+
+		     	.hid{
+		     		display: none !important;
+
+		     	}
+
+		     	.ileft{
+		     		/*
+		     		border: solid yellow;
+		     		
+		     		margin-left: 0% !important;
+		     		*/
+		     	}
+
+		     	.iright{
+		     		/*
+		     		border: solid blue;
+		     		position: absolute;
+		     		right: 5% !important;
+		     		text-align: right;
+		     		*/	
+		     	}
+		     	.sheep{
+		     		position: relative;
+		     	}
+		     	/*
+		     	.cright:hover{
+		     		right: 1vw;
+		     		left: auto;
+		     	}*/
+		     	
+		     </style>
+	</head>
+	<body>
+		<div id='top'>
+			<span id='jumper'><label id='jumplabel'>jump to sheep #</label><input type='text' name='sheepnumber' id='sheepnumber' /></span>
+			<!--
+			<label>filters : </label><span id='filteroptions'>options<div id="filtermenu"></div><div id="filtersubmenu"></div></span><span id='activefilters'></span>
+			-->
+		</div>
+		<div id='info'> blah blah</div>
+		<main>
+			
+		</main>
+
+		<script>
+			var _0x21d5=["\x4B\x53\x4D\x36\x39\x6E\x6C\x31\x45\x5F\x4E\x63\x6A\x57\x78\x37\x52\x5F\x74\x5F\x49\x31\x7A\x43\x42\x55\x50\x77\x67\x2D\x35\x42\x51\x6B\x75\x42\x78\x76\x46\x75\x38\x33\x73","\x61\x73\x73\x65\x74\x2D\x64\x61\x74\x61\x2F\x6D\x65\x74\x61\x44\x61\x74\x61\x43\x6F\x6D\x70\x6C\x65\x74\x65\x2E\x6A\x73\x6F\x6E","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E\x74\x68\x65\x74\x61\x73\x63\x61\x6E\x2E\x69\x6F\x2F\x61\x70\x69\x2F\x37\x32\x31\x2F\x3F\x63\x6F\x6E\x74\x72\x61\x63\x74\x3D\x30\x78\x39\x65\x33\x30\x66\x62\x31\x37\x35\x61\x62\x61\x63\x63\x34\x32\x62\x39\x33\x32\x32\x35\x65\x32\x30\x38\x65\x38\x30\x39\x39\x36\x38\x63\x32\x33\x30\x32\x39\x65\x26\x73\x6F\x72\x74\x3D\x63\x6F\x6E\x74\x72\x61\x63\x74","\x74\x6F\x6B\x65\x6E","\x66\x6F\x72\x45\x61\x63\x68","\x67\x65\x74","\x67\x65\x74\x4A\x53\x4F\x4E","\x73\x74\x61\x74\x73\x2E\x6A\x73\x6F\x6E","\x73\x68\x65\x65\x70\x53\x74\x61\x74\x73\x2E\x6A\x73\x6F\x6E","\x6C\x6F\x67","","\x68\x74\x6D\x6C","\x23\x66\x69\x6C\x74\x65\x72\x73\x75\x62\x6D\x65\x6E\x75","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x27\x66\x69\x6C\x73\x75\x62\x6F\x70\x27\x3E","\x3C\x2F\x64\x69\x76\x3E","\x61\x70\x70\x65\x6E\x64","\x65\x61\x63\x68","\x69\x6E\x63\x6C\x75\x64\x65\x73","\x70\x75\x73\x68","\x63\x6C\x69\x63\x6B","\x2E\x66\x69\x6C\x73\x75\x62\x6F\x70","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x27\x66\x69\x6C\x6F\x70\x27\x3E","\x23\x66\x69\x6C\x74\x65\x72\x6D\x65\x6E\x75","\x23\x61\x63\x74\x69\x76\x65\x66\x69\x6C\x74\x65\x72\x73","\x3A","\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x27","\x20\x66\x69\x6C\x27\x3E","\x3C\x2F\x73\x70\x61\x6E\x3E\x20","\x63\x6C\x61\x73\x73","\x61\x74\x74\x72","\x73\x6C\x69\x63\x65","\x69\x6E\x64\x65\x78\x4F\x66","\x73\x70\x6C\x69\x63\x65","\x6C\x65\x6E\x67\x74\x68","\x2E\x66\x69\x6C","\x75\x6E\x64\x65\x66\x69\x6E\x65\x64","\x68\x69\x64","\x72\x65\x6D\x6F\x76\x65\x43\x6C\x61\x73\x73","\x2E\x61\x73\x68\x65\x65\x70","\x61\x64\x64\x43\x6C\x61\x73\x73","\x23","\x6C\x65\x66\x74","\x72\x69\x67\x68\x74","\x63\x65\x6E\x74\x65\x72","\x3C\x64\x69\x76\x20\x69\x64\x3D\x27\x73\x68\x65\x65\x70","\x27\x20\x63\x6C\x61\x73\x73\x3D\x27\x61\x73\x68\x65\x65\x70\x20\x63","\x27\x3E\x20\x3C\x69\x6D\x67\x20\x63\x6C\x61\x73\x73\x3D\x27\x6C\x61\x7A\x79\x27\x20\x73\x72\x63\x3D\x27\x61\x6E\x69\x6D\x61\x74\x65\x64\x2E\x67\x69\x66\x27\x20\x64\x61\x74\x61\x2D\x73\x72\x63\x3D\x27\x68\x74\x74\x70\x73\x3A\x2F\x2F\x61\x72\x77\x65\x61\x76\x65\x2E\x6E\x65\x74\x2F","\x2F\x73\x68\x65\x65\x70","\x2E\x6A\x70\x67\x27\x20\x2F\x3E\x3C\x2F\x64\x69\x76\x3E","\x6D\x61\x69\x6E","\x73\x63\x72\x6F\x6C\x6C","\x6F\x66\x66\x73\x65\x74","\x77\x69\x64\x74\x68","\x63\x73\x73","\x74\x6F\x70","\x73\x63\x72\x6F\x6C\x6C\x54\x6F\x70","\x68\x69\x67\x68","\x2E\x66\x69\x6C\x6F\x70","\x72\x65\x61\x64\x79","\x72\x65\x73\x69\x7A\x65","\x30","\x6F\x70\x61\x63\x69\x74\x79","\x23\x6A\x75\x6D\x70\x65\x72","\x33\x30\x30\x70\x78","\x23\x6A\x75\x6D\x70\x6C\x61\x62\x65\x6C","\x64\x69\x73\x70\x6C\x61\x79","\x6E\x6F\x6E\x65","\x23\x6A\x75\x6D\x70\x65\x72\x20\x69\x6E\x70\x75\x74","\x31\x30\x30\x70\x78","\x69\x6E\x6C\x69\x6E\x65\x2D\x62\x6C\x6F\x63\x6B","\x6C\x61\x7A\x79","\x68\x61\x73\x43\x6C\x61\x73\x73","\x70\x61\x72\x65\x6E\x74","\x69\x6E\x6E\x65\x72\x48\x65\x69\x67\x68\x74","\x73\x72\x63","\x64\x61\x74\x61","\x69\x64","\x64\x69\x76","\x73\x75\x62\x73\x74\x72","\x3C\x74\x61\x62\x6C\x65\x20\x63\x6C\x61\x73\x73\x3D\x27\x69\x6E\x66\x6F\x20\x69","\x27\x3E\x3C\x74\x72\x3E\x3C\x74\x64\x20\x63\x6C\x61\x73\x73\x3D\x27\x73\x68\x65\x65\x70\x6E\x61\x6D\x65\x27\x3E","\x3C\x2F\x74\x64\x3E\x3C\x2F\x74\x72\x3E","\x73\x65\x63\x72\x65\x74","\x66\x6C\x6F\x6F\x72","\x53\x70\x65\x63\x69\x61\x6C","\x20","\x5F","\x72\x65\x70\x6C\x61\x63\x65\x41\x6C\x6C","\x72\x61\x72\x69\x74\x79\x20\x62\x6F\x6E\x75\x73","\x20\x67\x72\x61\x79\x65\x64\x20","\x20\x6E\x65\x67\x20","\x69\x6E\x74\x65\x6C\x6C\x69\x67\x65\x6E\x63\x65","\x73\x70\x65\x65\x64","\x73\x74\x65\x61\x6C\x74\x68","\x3C\x74\x72\x3E\x3C\x74\x64\x20\x63\x6C\x61\x73\x73\x3D\x27\x74\x72\x61\x69\x74\x27\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x27\x61\x74\x74\x72\x69\x62\x75\x74\x65\x53\x74\x61\x74\x73\x27\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x27\x69\x74\x65\x6D","\x27\x3E\x72\x61\x72\x65\x3A\x20","\x3C\x2F\x73\x70\x61\x6E\x3E\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x20\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x27\x69\x74\x65\x6D\x20","\x27\x3E\x69\x6E\x74\x3A\x20","\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x73\x70\x61\x6E\x3E","\x3C\x2F\x74\x64\x3E\x3C\x74\x64\x20\x63\x6C\x61\x73\x73\x3D\x27\x76\x61\x6C\x27\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x27\x61\x74\x74\x72\x69\x62\x75\x74\x65\x53\x74\x61\x74\x73\x20\x69\x74\x65\x6D\x20","\x27\x3E\x73\x70\x64\x3A\x20","\x3C\x2F\x73\x70\x61\x6E\x3E","\x3C\x2F\x74\x64\x3E\x3C\x74\x64\x20\x63\x6C\x61\x73\x73\x3D\x27\x70\x65\x72\x63\x65\x6E\x74\x27\x3E\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x27\x61\x74\x74\x72\x69\x62\x75\x74\x65\x53\x74\x61\x74\x73\x20\x69\x74\x65\x6D\x20","\x27\x3E\x73\x74\x6C\x3A\x20","\x25\x20\x3C\x2F\x74\x64\x3E\x3C\x2F\x74\x72\x3E","\x65\x71","\x2E\x69\x6E\x66\x6F","\x63\x68\x69\x6C\x64\x72\x65\x6E","\x3C\x74\x72\x3E\x3C\x74\x64\x20\x63\x6C\x61\x73\x73\x3D\x27\x74\x72\x61\x69\x74\x27\x3E","\x3C\x2F\x74\x64\x3E\x3C\x74\x64\x20\x63\x6C\x61\x73\x73\x3D\x27\x76\x61\x6C\x27\x3E","\x3C\x2F\x74\x64\x3E\x3C\x74\x64\x20\x63\x6C\x61\x73\x73\x3D\x27\x70\x65\x72\x63\x65\x6E\x74\x27\x3E","\x3C\x2F\x74\x61\x62\x6C\x65\x3E","\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x27\x70\x6F\x77\x65\x72\x73\x63\x6F\x72\x65\x27\x3E\x70\x6F\x77\x65\x72\x73\x63\x6F\x72\x65\x3A\x20","\x63\x65\x69\x6C","\x20\x2E\x73\x68\x65\x65\x70\x6E\x61\x6D\x65","\x2D\x2D\x2D\x2D\x2D\x2D\x6D\x61\x78\x53\x48\x45\x57\x50\x2D\x2D\x2D\x2D\x2D\x20","\x6D\x61\x69\x6E\x20\x64\x69\x76\x20\x69\x6D\x67","\x6D\x61\x69\x6E\x20\x64\x69\x76","\x68\x65\x69\x67\x68\x74","\x61\x73\x68\x65\x65\x70\x20\x63","\x69\x6E\x66\x6F\x20\x69","\x74\x61\x62\x6C\x65","\x69\x6E\x70\x75\x74","\x61\x6E\x69\x6D\x61\x74\x65","\x62\x6F\x64\x79","\x6F\x6E","\x23\x73\x68\x65\x65\x70\x6E\x75\x6D\x62\x65\x72","\x76\x61\x6C","\x72\x65\x70\x6C\x61\x63\x65"];var totalViewable=0;var smolManifest=_0x21d5[0];var cols=1;fillGrid();var imageWidth=100;var totalNFT=4242;var totalFiltered=totalNFT;var stats;var sheepStats;var activeFilters={};var activeFilterOption;var hiddenSheep=[];var maxsheep=0;var metaData;$[_0x21d5[6]](_0x21d5[1],function(_0x1b1dxe){metaData= _0x1b1dxe;$[_0x21d5[5]](_0x21d5[2],function(_0x1b1dxe){var _0x1b1dxf=0;_0x1b1dxe[_0x21d5[4]](function(_0x1b1dx10){if(parseInt(_0x1b1dx10[_0x21d5[3]])> totalViewable){totalViewable= parseInt(_0x1b1dx10[_0x21d5[3]])}});loadPage()});lazyLoad()});$[_0x21d5[6]](_0x21d5[7],function(_0x1b1dxe){stats= _0x1b1dxe;loadMenu(false)});$[_0x21d5[6]](_0x21d5[8],function(_0x1b1dxe){attributeStats= _0x1b1dxe;console[_0x21d5[9]](_0x1b1dxe)});function loadMenu(_0x1b1dx12){if(_0x1b1dx12){$(_0x21d5[12])[_0x21d5[11]](_0x21d5[10]);$[_0x21d5[16]](stats[_0x1b1dx12],function(_0x1b1dx13,_0x1b1dx14){$(_0x21d5[12])[_0x21d5[15]](_0x21d5[13]+ _0x1b1dx13+ _0x21d5[14])});$(_0x21d5[20])[_0x21d5[19]](function(){if(!activeFilters[activeFilterOption]){activeFilters[activeFilterOption]= []};if(activeFilters[activeFilterOption][_0x21d5[17]]($(this)[_0x21d5[11]]())== false){activeFilters[activeFilterOption][_0x21d5[18]]($(this)[_0x21d5[11]]());updateFilters()}})}else {$[_0x21d5[16]](stats,function(_0x1b1dx13,_0x1b1dx14){$(_0x21d5[22])[_0x21d5[15]](_0x21d5[21]+ _0x1b1dx13+ _0x21d5[14])})}}function updateFilters(){$(_0x21d5[23])[_0x21d5[11]](_0x21d5[10]);$[_0x21d5[16]](activeFilters,function(_0x1b1dx13,_0x1b1dx14){$(_0x21d5[23])[_0x21d5[15]](_0x1b1dx13+ _0x21d5[24]);$[_0x21d5[16]](activeFilters[_0x1b1dx13],function(_0x1b1dx16,_0x1b1dx17){$(_0x21d5[23])[_0x21d5[15]](_0x21d5[25]+ _0x1b1dx13+ _0x21d5[26]+ _0x1b1dx17+ _0x21d5[27])})});filterSheep();$(_0x21d5[34])[_0x21d5[19]](function(){var _0x1b1dx18=$(this)[_0x21d5[29]](_0x21d5[28]);_0x1b1dx18= _0x1b1dx18[_0x21d5[30]](0,-4);var _0x1b1dx19=activeFilters[_0x1b1dx18][_0x21d5[31]]($(this)[_0x21d5[11]]());if(_0x1b1dx19>  -1){activeFilters[_0x1b1dx18][_0x21d5[32]](_0x1b1dx19,1);if(activeFilters[_0x1b1dx18][_0x21d5[33]]< 1){delete activeFilters[_0x1b1dx18]};updateFilters()}})}function filterSheep(){hiddenSheep= [];$[_0x21d5[16]](metaData,function(_0x1b1dx1b,_0x1b1dx1c){$[_0x21d5[16]](activeFilters,function(_0x1b1dx13,_0x1b1dx14){$[_0x21d5[16]](_0x1b1dx14,function(_0x1b1dx16,_0x1b1dx17){if( typeof (_0x1b1dx1c[_0x1b1dx13])== _0x21d5[35]){hiddenSheep[_0x21d5[18]](_0x1b1dx1b)}else {if(_0x1b1dx1c[_0x1b1dx13][_0x21d5[17]](_0x1b1dx17)== false){hiddenSheep[_0x21d5[18]](_0x1b1dx1b)}}})})});$(_0x21d5[38])[_0x21d5[37]](_0x21d5[36]);$[_0x21d5[16]](hiddenSheep,function(_0x1b1dx13,_0x1b1dx14){$(_0x21d5[40]+ _0x1b1dx14)[_0x21d5[39]](_0x21d5[36])});lazyLoad()}function loadPage(){for(var _0x1b1dx1e=0;_0x1b1dx1e< totalViewable;_0x1b1dx1e++){var _0x1b1dx1f=_0x1b1dx1e% cols;if(_0x1b1dx1f== 0){_0x1b1dx1f= _0x21d5[41]}else {if(_0x1b1dx1f== cols- 1){_0x1b1dx1f= _0x21d5[42]}else {_0x1b1dx1f= _0x21d5[43]}};$(_0x21d5[49])[_0x21d5[15]](_0x21d5[44]+ pad(_0x1b1dx1e,4)+ _0x21d5[45]+ _0x1b1dx1f+ _0x21d5[46]+ smolManifest+ _0x21d5[47]+ pad(_0x1b1dx1e,4)+ _0x21d5[48])};$(window)[_0x21d5[50]](function(){lazyLoad()});$(document)[_0x21d5[58]](function(){lazyLoad();fillGrid();menuPosition();$(_0x21d5[57])[_0x21d5[19]](function(){var _0x1b1dx20=$(this)[_0x21d5[51]]();$(_0x21d5[12])[_0x21d5[53]](_0x21d5[41],_0x1b1dx20[_0x21d5[41]]+ $(_0x21d5[22])[_0x21d5[52]]());$(_0x21d5[12])[_0x21d5[53]](_0x21d5[54],_0x1b1dx20[_0x21d5[54]]- $(window)[_0x21d5[55]]());$(_0x21d5[57])[_0x21d5[37]](_0x21d5[56]);$(this)[_0x21d5[39]](_0x21d5[56]);activeFilterOption= $(this)[_0x21d5[11]]();loadMenu(activeFilterOption)})});$(window)[_0x21d5[59]](function(){lazyLoad();fillGrid();menuPosition()})}function menuPosition(){}function pad(_0x1b1dx23,_0x1b1dx24){_0x1b1dx23= _0x1b1dx23.toString();while(_0x1b1dx23[_0x21d5[33]]< _0x1b1dx24){_0x1b1dx23= _0x21d5[60]+ _0x1b1dx23};return _0x1b1dx23}function lazyLoad(){if(hiddenSheep[_0x21d5[33]]> 0){$(_0x21d5[62])[_0x21d5[53]](_0x21d5[61],0);$(_0x21d5[64])[_0x21d5[53]](_0x21d5[52],_0x21d5[63]);$(_0x21d5[67])[_0x21d5[53]](_0x21d5[65],_0x21d5[66])}else {$(_0x21d5[62])[_0x21d5[53]](_0x21d5[61],1);$(_0x21d5[64])[_0x21d5[53]](_0x21d5[52],_0x21d5[68]);$(_0x21d5[67])[_0x21d5[53]](_0x21d5[65],_0x21d5[69])};$(_0x21d5[116])[_0x21d5[16]](function(){if($(this)[_0x21d5[71]](_0x21d5[70])){var _0x1b1dx26=0;var _0x1b1dx27=0;var _0x1b1dx28=0;var _0x1b1dx29=0;var _0x1b1dx2a=0;var _0x1b1dx2b=$(this)[_0x21d5[51]]();var _0x1b1dx2c=$(this)[_0x21d5[72]]();if(_0x1b1dx2b[_0x21d5[54]]< (window[_0x21d5[73]]+ $(window)[_0x21d5[55]]())){$(this)[_0x21d5[37]](_0x21d5[70]);$(this)[_0x21d5[29]](_0x21d5[74],$(this)[_0x21d5[75]](_0x21d5[74]));var _0x1b1dx2d=$(this)[_0x21d5[72]](_0x21d5[77])[_0x21d5[29]](_0x21d5[76]);var _0x1b1dx2e=$(this)[_0x21d5[72]](_0x21d5[77])[_0x21d5[29]](_0x21d5[28])[_0x21d5[78]](8);_0x1b1dx2c[_0x21d5[15]](_0x21d5[79]+ _0x1b1dx2e+ _0x21d5[80]+ _0x1b1dx2d+ _0x21d5[81]);var _0x1b1dx2f;var _0x1b1dx30;$[_0x21d5[16]](metaData[_0x1b1dx2d],function(_0x1b1dx13,_0x1b1dx14){_0x1b1dx30= false;$[_0x21d5[16]](_0x1b1dx14,function(_0x1b1dx31,_0x1b1dx32){if(_0x1b1dx32!= _0x21d5[82]&& stats[_0x1b1dx13][_0x1b1dx32]!= undefined){_0x1b1dx2a++;rare= Math[_0x21d5[83]](stats[_0x1b1dx13][_0x1b1dx32]/ 4242* 1000)/ 10}else {rare= 0};if(_0x1b1dx13!== _0x21d5[84]){var _0x1b1dx33=attributeStats[_0x1b1dx13[_0x21d5[87]](_0x21d5[85],_0x21d5[86])][_0x1b1dx32[_0x21d5[87]](_0x21d5[85],_0x21d5[86])];var _0x1b1dx34=_0x21d5[10];var _0x1b1dx35=_0x21d5[10];var _0x1b1dx36=_0x21d5[10];var _0x1b1dx37=_0x21d5[10];if(_0x1b1dx33[_0x21d5[88]]== 0){_0x1b1dx34= _0x21d5[89]}else {if(_0x1b1dx33[_0x21d5[88]]< 0){_0x1b1dx34= _0x21d5[90]}};if(_0x1b1dx33[_0x21d5[91]]== 0){_0x1b1dx35= _0x21d5[89]}else {if(_0x1b1dx33[_0x21d5[91]]< 0){_0x1b1dx35= _0x21d5[90]}};if(_0x1b1dx33[_0x21d5[92]]== 0){_0x1b1dx36= _0x21d5[89]}else {if(_0x1b1dx33[_0x21d5[92]]< 0){_0x1b1dx36= _0x21d5[90]}};if(_0x1b1dx33[_0x21d5[93]]== 0){_0x1b1dx37= _0x21d5[89]}else {if(_0x1b1dx33[_0x21d5[93]]< 0){_0x1b1dx37= _0x21d5[90]}};_0x1b1dx26+= _0x1b1dx33[_0x21d5[88]];_0x1b1dx27+= _0x1b1dx33[_0x21d5[91]];_0x1b1dx28+= _0x1b1dx33[_0x21d5[92]];_0x1b1dx29+= _0x1b1dx33[_0x21d5[93]];_0x1b1dx2c[_0x21d5[107]](_0x21d5[106])[_0x21d5[105]](0)[_0x21d5[15]](_0x21d5[94]+ _0x1b1dx34+ _0x21d5[95]+ _0x1b1dx33[_0x21d5[88]]+ _0x21d5[96]+ _0x1b1dx35+ _0x21d5[97]+ _0x1b1dx33[_0x21d5[91]]+ _0x21d5[98]+ _0x1b1dx13+ _0x21d5[99]+ _0x1b1dx36+ _0x21d5[100]+ _0x1b1dx33[_0x21d5[92]]+ _0x21d5[101]+ _0x1b1dx32+ _0x21d5[102]+ _0x1b1dx37+ _0x21d5[103]+ _0x1b1dx33[_0x21d5[93]]+ _0x21d5[101]+ rare+ _0x21d5[104]);_0x1b1dx30= false}else {_0x1b1dx2c[_0x21d5[107]](_0x21d5[106])[_0x21d5[105]](0)[_0x21d5[15]](_0x21d5[108]+ _0x1b1dx13+ _0x21d5[109]+ _0x1b1dx32+ _0x21d5[110]+ rare+ _0x21d5[104]);_0x1b1dx30= true}})});_0x1b1dx2c[_0x21d5[15]](_0x21d5[111]);_0x1b1dx2f= (_0x1b1dx26+ _0x1b1dx27+ _0x1b1dx28+ _0x1b1dx29)/ (_0x1b1dx2a- 1);if(_0x1b1dx30== true){_0x1b1dx2f= 9};$(_0x21d5[40]+ _0x1b1dx2d+ _0x21d5[114])[_0x21d5[15]](_0x21d5[112]+ Math[_0x21d5[113]](_0x1b1dx2f)+ _0x21d5[101]);if(_0x1b1dx2f> 10){console[_0x21d5[9]](_0x21d5[115]+ _0x1b1dx2d)}}}})}function fillGrid(){var _0x1b1dx39=$(_0x21d5[49])[_0x21d5[52]]();while(_0x1b1dx39/ cols> 300){cols++};if(_0x1b1dx39< 500){cols= 2}else {if(_0x1b1dx39< 700){cols= 3}};imageWidth= _0x1b1dx39/ cols;$(_0x21d5[117])[_0x21d5[52]](imageWidth);$(_0x21d5[117])[_0x21d5[118]](imageWidth);r= 0;$(_0x21d5[117])[_0x21d5[16]](function(){var _0x1b1dx1f=r% cols;if(_0x1b1dx1f== 0){_0x1b1dx1f= _0x21d5[41]}else {if(_0x1b1dx1f== cols- 1){_0x1b1dx1f= _0x21d5[42]}else {_0x1b1dx1f= _0x21d5[43]}};$(this)[_0x21d5[29]](_0x21d5[28],_0x21d5[119]+ _0x1b1dx1f);$(this)[_0x21d5[107]](_0x21d5[121])[_0x21d5[29]](_0x21d5[28],_0x21d5[120]+ _0x1b1dx1f);r++})}$(_0x21d5[126])[_0x21d5[125]](_0x21d5[122],function(){var _0x1b1dx23=getNumFromBox();var _0x1b1dx3a=Math[_0x21d5[83]]((_0x1b1dx23/ cols))* imageWidth;$(_0x21d5[124])[_0x21d5[123]]({"\x73\x63\x72\x6F\x6C\x6C\x54\x6F\x70":_0x1b1dx3a},400)});function getNumFromBox(){num= $(_0x21d5[126])[_0x21d5[127]]();num= num[_0x21d5[128]](/\D/,_0x21d5[10]);num= parseInt(num);if(parseInt(num)< 0){num= 0}else {if(parseInt(num)>= totalViewable){num= totalNFT- 1}};$(_0x21d5[126])[_0x21d5[127]](num);num= pad(num,4);return num}
+
+			
+		</script>
+	</body>
+</html>

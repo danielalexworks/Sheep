@@ -1,0 +1,98 @@
+{
+	"bases" : 
+	[
+		{
+			"name" : "sheep1",
+			"weight" : 40,
+			"rarity" : 0
+		},
+		{
+			"name" : "sheep2",
+			"weight" : 40,
+			"rarity" : 0
+		},
+		{
+			"name" : "sheep3",
+			"weight" : 40,
+			"rarity" : 0
+		},
+		{
+			"name" : "sheep4",
+			"weight" : 40,
+			"rarity" : 0
+		},
+		{
+			"name" : "sheep5",
+			"weight" : 30,
+			"rarity" : 0
+		},
+		{
+			"name" : "sheep6",
+			"weight" : 30,
+			"rarity" : 0
+		},
+		{
+			"name" : "sheep7",
+			"weight" : 30,
+			"rarity" : 0
+		},
+		{
+			"name" : "sheep8",
+			"weight" : 30,
+			"rarity" : 0
+		},
+		{
+			"name" : "sheep9",
+			"weight" : 10,
+			"rarity" : 0,
+			"overlay":"Hat"
+		},
+		{
+			"name" : "sheep10",
+			"weight" : 20,
+			"rarity" : 0
+		},
+		{
+			"name" : "sheep11",
+			"weight" : 10,
+			"rarity" : 0
+		},
+		{
+			"name" : "sheep12",
+			"weight" : 30,
+			"rarity" : 0
+		},
+		{
+			"name" : "sheep13",
+			"weight" : 10,
+			"rarity" : 0
+		},
+		{
+			"name" : "sheep14",
+			"weight" : 5,
+			"rarity" : 0,
+			"overlay" : "Flowers"
+		},
+		{
+			"name" : "sheep15",
+			"weight" : 10,
+			"rarity" : 0
+		},
+		{
+			"name" : "sheep16",
+			"weight" : 10,
+			"rarity" : 0
+		},
+		{
+			"name" : "sheep17",
+			"weight" : 10,
+			"rarity" : 0
+		},
+		{
+			"name" : "sheep18",
+			"weight" : 20,
+			"rarity" : 0
+		}
+
+	]
+}

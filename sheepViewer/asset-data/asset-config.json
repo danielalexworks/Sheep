@@ -1,0 +1,114 @@
+{
+    	"Background": {
+    		"min" : 1,
+    		"max" : 1,
+    		"look-depth" : 0,
+    		"chance" : 100
+    	},
+
+    	
+
+    	"Legs" : {
+    		"min" : 1,
+    		"max" : 1,
+    		"look-depth" : 0,
+    		"chance" : 100
+    	},	   
+	    
+	    "Leg_Tips": {
+    		"min" : 0,
+    		"max" : 1,
+    		"look-depth" : 5,
+    		"chance" : 35
+    	},
+    	"Extra":{
+    		"min" : 0,
+    		"max" : 1,
+    		"look_depth": 2,
+    		"chance" : 2
+    	},
+    	
+    	"Body": {
+    		"min" : 1,
+    		"max" : 1,
+    		"look-depth" : 0,
+    		"chance" : 100
+    	},
+
+    	"Head" : {
+    		"min" : 1,
+    		"max" : 1,
+    		"look-depth" : 0,
+    		"chance" : 0
+    	},
+    	
+    	"Fleece_Overlay": {
+    		"min" : 0,
+    		"max" : 1,
+    		"look-depth" : 3,
+    		"chance" : 15
+    	},
+	  
+		"Skin_Overlay": {
+    		"min" : 0,
+    		"max" : 1,
+    		"look-depth" : 3,
+    		"chance" : 15
+    	},
+
+    	"Leg_Cuffs": {
+    		"min" : 0,
+    		"max" : 1,
+    		"look-depth" : 5,
+    		"chance" :50
+    	},
+	   
+	   "Shoes": {
+    		"min": 0,
+    		"max" : 1,
+    		"look-depth" : 2,
+    		"chance" : 30
+    	},
+    	
+    	"Accessories": {
+    		"min" : 0,
+    		"max" : 3,
+    		"look-depth" : 4,
+    		"chance" : 50
+    	},  
+
+	    "Earrings": {
+    		"min" : 0,
+    		"max" : 3,
+    		"look-depth" : 2,
+    		"chance" : 50
+    	},  
+	  
+    	"Neck": {
+    		"min" : 0,
+    		"max" : 1,
+    		"look-depth" : 2,
+    		"chance" : 35
+    	},  
+	 
+		"Mouth": {
+    		"min" : 0,
+    		"max" : 1,
+    		"look-depth" : 4,
+    		"chance" : 30
+    	},  
+	  
+    	"Eyes":  {
+    		"min" : 1,
+    		"max" : 1,
+    		"look-depth" : 0,
+    		"chance" : 100
+    	} ,
+  	
+	    "Body_Accessories": {
+    		"min": 0,
+    		"max" : 2,
+    		"look-depth" : 2,
+    		"chance" : 30
+    	}
+}

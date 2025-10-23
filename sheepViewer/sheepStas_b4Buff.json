@@ -1,0 +1,1086 @@
+{
+	"Head": {
+			"sheep1":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			}, 
+			"sheep2":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			},
+			"sheep3":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			},
+			"sheep4":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			},
+			"sheep5":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			},
+			"sheep6":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			},
+			"sheep7":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			},
+			"sheep8":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			},
+			"sheep9":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 1
+			},
+			"sheep10":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 1
+			},
+			"sheep11":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 1
+			},
+			"sheep12":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			},
+			"sheep13":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 2
+			},
+			"sheep14":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 2
+			},
+			"sheep15":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 1
+			},
+			"sheep16":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 1
+			},
+			"sheep17":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 1
+			},
+			"sheep18":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 1
+			}
+		
+	},
+	"Body" : {
+			"Fluffy":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			},
+			"Nugget":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 6
+			}	
+	},
+	"Eyes" : {
+			"Asleep":{
+				"speed" : -2,
+				"intelligence" : 0,
+				"stealth" : 1,
+				"rarity bonus" : 0
+			},
+			"Baby_Blues":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 2,
+				"rarity bonus" : 0
+			},
+			"Bored":{
+				"speed" : -1,
+				"intelligence" : 2,
+				"stealth" : 0,
+				"rarity bonus" : 1
+			},	
+			"Closed":{
+				"speed" : -1,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 1
+			},
+			"Closed_Tight":{
+				"speed" : -1,
+				"intelligence" : 0,
+				"stealth" : 2,
+				"rarity bonus" : 0
+			},
+			"Cracked":{
+				"speed" : 2,
+				"intelligence" : -1,
+				"stealth" : -1,
+				"rarity bonus" : 2
+			},
+			"Derp":{
+				"speed" : 1,
+				"intelligence" : -1,
+				"stealth" : -1,
+				"rarity bonus" : 0
+			},
+			"Flower_Power":{
+				"speed" : 1,
+				"intelligence" : 2,
+				"stealth" : 2,
+				"rarity bonus" : 4
+			},
+			"Glass_Eyes":{
+				"speed" : 1,
+				"intelligence" : 1,
+				"stealth" : 1,
+				"rarity bonus" : 1
+			},
+			"Happy":{
+				"speed" : 2,
+				"intelligence" : 2,
+				"stealth" : -1,
+				"rarity bonus" : 1
+			},
+			"Humph":{
+				"speed" : -1,
+				"intelligence" : 0,
+				"stealth" : 1,
+				"rarity bonus" : 2
+			},
+			"Laser":{
+				"speed" : 2,
+				"intelligence" : 2,
+				"stealth" : 0,
+				"rarity bonus" : 4
+			},
+			"Quite":{
+				"speed" : -1,
+				"intelligence" : 0,
+				"stealth" : 1,
+				"rarity bonus" : 2
+			},
+			"Serene":{
+				"speed" : -1,
+				"intelligence" : 0,
+				"stealth" : 1,
+				"rarity bonus" : 2
+			},
+			"Sigh":{
+				"speed" : -1,
+				"intelligence" : 1,
+				"stealth" : 1,
+				"rarity bonus" : 0
+			},
+			"WTF":{
+				"speed" : 1,
+				"intelligence" : 1,
+				"stealth" : -1,
+				"rarity bonus" : 1
+			},
+			"Weary":{
+				"speed" : 0,
+				"intelligence" : 2,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			}
+	},
+	"Mouth" : {
+			"Blep":{
+				"speed" : 1,
+				"intelligence" : 0,
+				"stealth" : 1,
+				"rarity bonus" : 2
+			},
+			"Goof":{
+				"speed" : 1,
+				"intelligence" : 0,
+				"stealth" : -1,
+				"rarity bonus" : 5
+			},
+			"Grass":{
+				"speed" : 0,
+				"intelligence" : 1,
+				"stealth" : 1,
+				"rarity bonus" : 2
+			},
+			"Joint":{
+				"speed" : 2,
+				"intelligence" : 1,
+				"stealth" : 0,
+				"rarity bonus" : 2
+			},
+			"Lip":{
+				"speed" : 1,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 4
+			},
+			"Lit":{
+				"speed" : 1,
+				"intelligence" : 2,
+				"stealth" : -1,
+				"rarity bonus" : 1
+			},
+			"Pbbbt":{
+				"speed" : 1,
+				"intelligence" : -1,
+				"stealth" : -1,
+				"rarity bonus" : 1
+			},
+			"Snaggle_Tooth":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 1,
+				"rarity bonus" : 1
+			},
+			"Sticking_Out_Tounge":{
+				"speed" : 0,
+				"intelligence" : 1,
+				"stealth" : -1,
+				"rarity bonus" : 1
+			},
+			"Teeth":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 1,
+				"rarity bonus" : 1
+			}
+	},
+	"Body_Accessories" : {
+			"Amanita":{
+				"speed" : 0,
+				"intelligence" : 4,
+				"stealth" : 1,
+				"rarity bonus" : 1
+			},
+			"Antlers":{
+				"speed" : 2,
+				"intelligence" : 0,
+				"stealth" : 2,
+				"rarity bonus" : 1
+			},
+			"Bat_Wings":{
+				"speed" : 3,
+				"intelligence" : 0,
+				"stealth" : 1,
+				"rarity bonus" : 1
+			},
+			"Birdhouse":{
+				"speed" : 1,
+				"intelligence" : 0,
+				"stealth" : -1,
+				"rarity bonus" : 0
+			},
+			"Blanket":{
+				"speed" : -1,
+				"intelligence" : 0,
+				"stealth" : 2,
+				"rarity bonus" : 1
+			},
+			"Blaze_Orange":{
+				"speed" : 1,
+				"intelligence" : 2,
+				"stealth" : -2,
+				"rarity bonus" : 2
+			},
+			"Bunny_Ears":{
+				"speed" : 3,
+				"intelligence" : 0,
+				"stealth" : 1,
+				"rarity bonus" : 1
+			},
+			"Egg_Butt":{
+				"speed" : 0,
+				"intelligence" : 1,
+				"stealth" : -2,
+				"rarity bonus" : 6
+			},
+			"Gudetama":{
+				"speed" : 0,
+				"intelligence" : 1,
+				"stealth" : -2,
+				"rarity bonus" : 6
+			},
+			"Kraken":{
+				"speed" : 0,
+				"intelligence" : 1,
+				"stealth" : 2,
+				"rarity bonus" : 2
+			},
+			"Nest":{
+				"speed" : 1,
+				"intelligence" : 0,
+				"stealth" : -1,
+				"rarity bonus" : 1
+			},
+			"Periscope":{
+				"speed" : 0,
+				"intelligence" : 2,
+				"stealth" : 2,
+				"rarity bonus" : 1
+			},
+			"Pink_Party_Hat":{
+				"speed" : 0,
+				"intelligence" : 1,
+				"stealth" : -2,
+				"rarity bonus" : 1
+			},
+			"Red_Party_Hat":{
+				"speed" : 0,
+				"intelligence" : 1,
+				"stealth" : -2,
+				"rarity bonus" : 1
+			},
+			"Shark_Fin":{
+				"speed" : 1,
+				"intelligence" : 0,
+				"stealth" : 2,
+				"rarity bonus" : 1
+			},
+			"Snoo":{
+				"speed" : 0,
+				"intelligence" : 2,
+				"stealth" : 1,
+				"rarity bonus" : 1
+			},
+			"Space_Sheep":{
+				"speed" : 1,
+				"intelligence" : 1,
+				"stealth" : 1,
+				"rarity bonus" : 4
+			},
+			"TBILL":{
+				"speed" : 1,
+				"intelligence" : 1,
+				"stealth" : 1,
+				"rarity bonus" : 6
+			},
+			"Tamago_Sushi":{
+				"speed" : 1,
+				"intelligence" : 0,
+				"stealth" : 1,
+				"rarity bonus" : 6
+			},
+			"Unicorn":{
+				"speed" : 2,
+				"intelligence" : 1,
+				"stealth" : -1,
+				"rarity bonus" : 0
+			},
+			"Wolf_Ears":{
+				"speed" : 1,
+				"intelligence" : 2,
+				"stealth" : 3,
+				"rarity bonus" : 2
+			}
+	},
+	"Legs" : {
+			"Chub":{
+				"speed" : -2,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 1
+			},
+			"Long":{
+				"speed" : 3,
+				"intelligence" : 0,
+				"stealth" : -1,
+				"rarity bonus" : 0
+			},
+			"Nub":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			},
+			"Pointy":{
+				"speed" : 2,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			}	
+		
+	},
+    "Leg_Tips" : {
+			"Chub":{
+				"speed" : 2,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 2
+			},
+			"Long":{
+				"speed" : 2,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 1
+			},
+			"Nub":{
+				"speed" : 2,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			},
+			"Pointy":{
+				"speed" : 2,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			}	
+		
+	},
+    "Leg_Cuffs" : {
+			"TBILL":{
+				"speed" : 1,
+				"intelligence" : 2,
+				"stealth" : 0,
+				"rarity bonus" : 4
+			},
+			"TFUEL":{
+				"speed" : 2,
+				"intelligence" : 1,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			},
+			"THETA":{
+				"speed" : 1,
+				"intelligence" : 1,
+				"stealth" : 1,
+				"rarity bonus" : 0
+			}
+    },
+    "Neck" : {
+			"Baby_Bib":{
+				"speed" : -1,
+				"intelligence" : -1,
+				"stealth" : 2,
+				"rarity bonus" : 3
+			},
+			"Bandana":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 2,
+				"rarity bonus" : 1
+			},
+			"Big_Beard":{
+				"speed" : -1,
+				"intelligence" : 1,
+				"stealth" : 2,
+				"rarity bonus" : 2
+			},
+			"Bowtie":{
+				"speed" : 0,
+				"intelligence" : 1,
+				"stealth" : -1,
+				"rarity bonus" : 3
+			},
+			"Braided_Beard":{
+				"speed" : 2,
+				"intelligence" : 1,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			},
+			"Chain":{
+				"speed" : 1,
+				"intelligence" : 1,
+				"stealth" : -2,
+				"rarity bonus" : 3
+			},
+			"Necktie":{
+				"speed" : -1,
+				"intelligence" : 2,
+				"stealth" : 1,
+				"rarity bonus" : 1
+			},
+			"Pearls":{
+				"speed" : 1,
+				"intelligence" : 0,
+				"stealth" : 1,
+				"rarity bonus" : 2
+			}
+    },
+    "Earrings" : {
+			"3_Rings":{
+				"speed" : 1,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			},
+			"Ankh":{
+				"speed" : 0,
+				"intelligence" : 1,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			},
+			"BTC":{
+				"speed" : -1,
+				"intelligence" : 2,
+				"stealth" : -1,
+				"rarity bonus" : 4
+			},
+			"Cactus_Earrings":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 1,
+				"rarity bonus" : 0
+			},
+			"ETH":{
+				"speed" : 1,
+				"intelligence" : 1,
+				"stealth" : -1,
+				"rarity bonus" : 2
+			},
+			"Hoops":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : -1,
+				"rarity bonus" : 0
+			},
+			"Idena":{
+				"speed" : 0,
+				"intelligence" : 1,
+				"stealth" : 3,
+				"rarity bonus" : 4
+			},
+			"Silver_Hoop":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			},
+			"TBILL":{
+				"speed" : 0,
+				"intelligence" : 2,
+				"stealth" : 0,
+				"rarity bonus" : 6
+			},
+			"TFUEL":{
+				"speed" : 1,
+				"intelligence" : 1,
+				"stealth" : -1,
+				"rarity bonus" : 0
+			},
+			"Theta":{
+				"speed" : 1,
+				"intelligence" : 1,
+				"stealth" : -1,
+				"rarity bonus" : 0
+			},
+			"XLM":{
+				"speed" : 5,
+				"intelligence" : 1,
+				"stealth" : 0,
+				"rarity bonus" : 4
+			}
+    },
+    "Accessories" : {
+			"Cheek":{
+				"speed" : 0,
+				"intelligence" : 1,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			},
+			"Diamond":{
+				"speed" : 0,
+				"intelligence" : 1,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			},
+			"Gold_Bell":{
+				"speed" : 0,
+				"intelligence" : 3,
+				"stealth" : -2,
+				"rarity bonus" : 0
+			},
+			"Rusty_Bell":{
+				"speed" : 0,
+				"intelligence" : 1,
+				"stealth" : -2,
+				"rarity bonus" : 0
+			},
+			"Silver_Bell":{
+				"speed" : 0,
+				"intelligence" : 2,
+				"stealth" : -2,
+				"rarity bonus" : 0
+			},
+			"Spot":{
+				"speed" : 0,
+				"intelligence" : 1,
+				"stealth" : -1,
+				"rarity bonus" : 0
+			},
+			"Sun_Glasses":{
+				"speed" : 1,
+				"intelligence" : 0,
+				"stealth" : 3,
+				"rarity bonus" : 2
+			},
+			"Tattoo":{
+				"speed" : 2,
+				"intelligence" : 0,
+				"stealth" : -2,
+				"rarity bonus" : 2
+			}
+        
+    },
+	"Shoes" : {
+			"AllStars":{
+				"speed" : 3,
+				"intelligence" : 0,
+				"stealth" : 1,
+				"rarity bonus" : 1
+			},
+			"Cast":{
+				"speed" : -4,
+				"intelligence" : 1,
+				"stealth" : 0,
+				"rarity bonus" : 4
+			},
+			"Cowboy_Boots":{
+				"speed" : 1,
+				"intelligence" : 1,
+				"stealth" : -2,
+				"rarity bonus" : 1
+			},
+			"Docs":{
+				"speed" : 1,
+				"intelligence" : 1,
+				"stealth" : -2,
+				"rarity bonus" : 0
+			},
+			"Goth_Boots":{
+				"speed" : -3,
+				"intelligence" : 1,
+				"stealth" : 1,
+				"rarity bonus" : 2
+			},
+			"Moccasins":{
+				"speed" : 1,
+				"intelligence" : 2,
+				"stealth" : 4,
+				"rarity bonus" : 2
+			},
+			"Puma":{
+				"speed" : 2,
+				"intelligence" : 1,
+				"stealth" : 0,
+				"rarity bonus" : 1
+			},
+			"Pumps":{
+				"speed" : 3,
+				"intelligence" : 1,
+				"stealth" : 0,
+				"rarity bonus" : 4
+			},
+			"Socks":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 3,
+				"rarity bonus" : 1
+			},
+			"Socks_And_Sandles":{
+				"speed" : -2,
+				"intelligence" : 2,
+				"stealth" : 1,
+				"rarity bonus" : 1
+			}		
+	},
+	"Fleece_Overlay" : {
+			"Amethyst":{
+				"speed" : 0,
+				"intelligence" : 1,
+				"stealth" : 2,
+				"rarity bonus" : 4
+			},
+			"Ash_Light":{
+				"speed" : 1,
+				"intelligence" : 2,
+				"stealth" : 0,
+				"rarity bonus" : 3
+			},
+			"Bright":{
+				"speed" : 1,
+				"intelligence" : 1,
+				"stealth" : -1,
+				"rarity bonus" : 2
+			}	,
+			"Carina":{
+				"speed" : 2,
+				"intelligence" : 2,
+				"stealth" : 1,
+				"rarity bonus" : 4
+			}	,
+			"Coins":{
+				"speed" : 0,
+				"intelligence" : 1,
+				"stealth" : 1,
+				"rarity bonus" : 4
+			}	,
+			"Feathers":{
+				"speed" : 3,
+				"intelligence" : 0,
+				"stealth" : 1,
+				"rarity bonus" : 4
+			}	,
+			"Flowers":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 1,
+				"rarity bonus" : 1
+			}	,
+			"Gradient":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 1,
+				"rarity bonus" : 2
+			}	,
+			"Gray":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 1,
+				"rarity bonus" : 6
+			}	,
+			"Lake":{
+				"speed" : 0,
+				"intelligence" : 1,
+				"stealth" : 2,
+				"rarity bonus" : 4
+			}	,
+			"Pale":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 1,
+				"rarity bonus" : 1
+			}	,
+			"Pyrite":{
+				"speed" : 0,
+				"intelligence" : 2,
+				"stealth" : 2,
+				"rarity bonus" : 5
+			}	,
+			"Rainbow":{
+				"speed" : 0,
+				"intelligence" : 2,
+				"stealth" : 2,
+				"rarity bonus" : 5
+			}	,
+			"Record":{
+				"speed" : 1,
+				"intelligence" : 1,
+				"stealth" : -2,
+				"rarity bonus" : 6
+			}	,
+			"Sheep_Stamps":{
+				"speed" : 0,
+				"intelligence" : 1,
+				"stealth" : 1,
+				"rarity bonus" : 5
+			}	,
+			
+			"Sky":{
+				"speed" : 2,
+				"intelligence" : 2,
+				"stealth" : 2,
+				"rarity bonus" : 5
+			}	,
+			"Sunflowers":{
+				"speed" : 1,
+				"intelligence" : 1,
+				"stealth" : 1,
+				"rarity bonus" : 2
+			},
+			"Vending_Machine":{
+				"speed" : 0,
+				"intelligence" : 1,
+				"stealth" : 1,
+				"rarity bonus" : 5
+			}	
+	},
+	"Skin_Overlay" : {
+			"Ash_Light":{
+				"speed" : 1,
+				"intelligence" : 2,
+				"stealth" : 0,
+				"rarity bonus" : 4
+			},
+			"Black":{
+				"speed" : 1,
+				"intelligence" : 1,
+				"stealth" : 1,
+				"rarity bonus" : 1
+			},
+			"Blue":{
+				"speed" : 1,
+				"intelligence" : 1,
+				"stealth" : 0,
+				"rarity bonus" : 2
+			}	,
+			"ESO-455-10":{
+				"speed" : 1,
+				"intelligence" : 2,
+				"stealth" : 1,
+				"rarity bonus" : 2
+			}	,
+			"Eggs":{
+				"speed" : -2,
+				"intelligence" : 2,
+				"stealth" : 2,
+				"rarity bonus" : 4
+			}	,
+			"Green":{
+				"speed" : 1,
+				"intelligence" : 1,
+				"stealth" : 2,
+				"rarity bonus" : 3
+			}	,
+			"Lucky":{
+				"speed" : 1,
+				"intelligence" : 2,
+				"stealth" : 2,
+				"rarity bonus" : 4
+			}	,
+			"Moss":{
+				"speed" : 1,
+				"intelligence" : 1,
+				"stealth" : 1,
+				"rarity bonus" : 4
+			}	,
+			"Pyrite":{
+				"speed" : 0,
+				"intelligence" : 2,
+				"stealth" : 3,
+				"rarity bonus" : 4
+			}	,
+			"Red":{
+				"speed" : 2,
+				"intelligence" : 1,
+				"stealth" : -1,
+				"rarity bonus" : 2
+			}	,
+			"Shroom":{
+				"speed" : 1,
+				"intelligence" : 4,
+				"stealth" : 2,
+				"rarity bonus" : 6
+			}	,
+			"Stripey":{
+				"speed" : 2,
+				"intelligence" : 0,
+				"stealth" : 2,
+				"rarity bonus" : 4
+			}	,
+			"White":{
+				"speed" : 1,
+				"intelligence" : 1,
+				"stealth" : 1,
+				"rarity bonus" : 1
+			}	,
+			"Wood_Rings":{
+				"speed" : -2,
+				"intelligence" : 3,
+				"stealth" : 2,
+				"rarity bonus" : 4
+			}		
+	},  
+    "Background" : {
+			"Blue":{
+				"speed" : 0,
+				"intelligence" : 1,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			},
+        "Cyan":{
+				"speed" : 0,
+				"intelligence" : 1,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			},
+			"Cream":{
+				"speed" : 0,
+				"intelligence" : 1,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			},
+			"Dirty_Sheep":{
+				"speed" : 1,
+				"intelligence" : 0,
+				"stealth" : 2,
+				"rarity bonus" : 2
+			},
+			"Gradient":{
+				"speed" : 0,
+				"intelligence" : 2,
+				"stealth" : 0,
+				"rarity bonus" : 4
+			},
+			"Knit":{
+				"speed" : 0,
+				"intelligence" : 0,
+				"stealth" : 2,
+				"rarity bonus" : 2
+			},
+			"Light_Pink":{
+				"speed" : 1,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			},
+			"Light_Weave":{
+				"speed" : 1,
+				"intelligence" : 1,
+				"stealth" : 1,
+				"rarity bonus" : 2
+			},
+			"Little_Presque":{
+				"speed" : 1,
+				"intelligence" : 1,
+				"stealth" : 1,
+				"rarity bonus" : 2
+			},
+			"Orange":{
+				"speed" : 1,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			},
+			"Pale_Yellow":{
+				"speed" : 1,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 1
+			},
+			"Pink":{
+				"speed" : 1,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			},
+			"Red":{
+				"speed" : 1,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			},
+			"Sacred":{
+				"speed" : 1,
+				"intelligence" : 3,
+				"stealth" : 0,
+				"rarity bonus" : 2
+			},
+			"TBILL":{
+				"speed" : 1,
+				"intelligence" : 1,
+				"stealth" : 0,
+				"rarity bonus" : 6
+			},
+			"Orange":{
+				"speed" : 1,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 1
+			},
+			"Theta_1":{
+				"speed" : 0,
+				"intelligence" : 1,
+				"stealth" : 0,
+				"rarity bonus" : 1
+			},
+			"Theta_2":{
+				"speed" : 0,
+				"intelligence" : 1,
+				"stealth" : 0,
+				"rarity bonus" : 1
+			},
+			"Theta_3":{
+				"speed" : 0,
+				"intelligence" : 1,
+				"stealth" : 0,
+				"rarity bonus" : 1
+			},
+			"Theta_4":{
+				"speed" : 0,
+				"intelligence" : 1,
+				"stealth" : 0,
+				"rarity bonus" : 1
+			},
+			"Wolf":{
+				"speed" : 1,
+				"intelligence" : 1,
+				"stealth" : 2,
+				"rarity bonus" : 2
+			},
+			"Yellow":{
+				"speed" : 1,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			},
+			"TFuel_Orange":{
+				"speed" : 1,
+				"intelligence" : 0,
+				"stealth" : 0,
+				"rarity bonus" : 0
+			}
+			
+        
+    },
+	"Extra" : {
+			"Poop":{
+				"speed" : 2,
+				"intelligence" : 0,
+				"stealth" : -1,
+				"rarity bonus" : 4
+			},
+			"Turd":{
+				"speed" : 2,
+				"intelligence" : 0,
+				"stealth" : -1,
+				"rarity bonus" : 2
+			}
+		
+	}
+}	

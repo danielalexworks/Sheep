@@ -1,0 +1,22 @@
+{
+	"order" : [
+				"Head",
+				"Body",
+				"Eyes",
+				"Mouth",
+				"Neck",
+				"Accessories",
+				"Body_Accessories",
+				"Earrings",
+				"Fleece_Overlay",
+				"Skin_Overlay",
+				"Legs",
+				"Leg_Tips",
+				"Leg_Cuffs",
+				"Shoes",
+				"Extra",
+				"Background"
+			]
+    
+		
+}
