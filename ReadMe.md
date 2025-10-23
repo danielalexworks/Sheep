@@ -1,4 +1,4 @@
-#CONCEPT:
+# CONCEPT:
 
 *Sheep!* is a unique multi-contract Profile Pic based NFT experience with rewards. It ignores the traditional goals of Tokenomics -e.g., protocol sustainability, maximizing profits for early adopters, and minimizing gameability. Instead, Sheep!’s mechanics are designed to tell a story, pose questions, create a novel experience for participants, and push the boundaries of Profile Pic (PFP) NFTs.
 
@@ -7,7 +7,7 @@ Sheep! is designed with careful consideration to the following: the crypto marke
 It is gameable by design: Packs will be formed. Sheep will be sacrificed. Those not strong enough will perish. Innovation and a little bit of luck are the only way to survive.
 
 
-#HOW IT WORKS:
+# HOW IT WORKS:
 The Sheep! ecosystem is composed of the following tokens:
 - 5 ultra rare pixel sheep
 - 4242 unique golden sheep NFT utility tokens
@@ -27,7 +27,7 @@ If dead for less than 1 week, a wolf can be revived by feeding it a Pixel Sheep 
 After 2 years, the LP tokens will be evenly distributed among the remaining living wolves. These wolves will remain eternally alive. If at any time there is only one wolf left, the LP tokens can be claimed by that wolf’s owner.
 
 
-#STORAGE
+# STORAGE
 
 The NFT images and metadata are uploaded to the permaweb on the Arweave Blockchain.
 
